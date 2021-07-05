@@ -2,9 +2,10 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   position: fixed;
+  z-index: 1100;
   top: var(--medium);
   right: var(--medium);
-  color: var(--white);
+  color: var(--gray);
   cursor: pointer;
 
   svg {
@@ -13,7 +14,7 @@ export const Wrapper = styled.div`
 
   &:hover {
     svg {
-      color: var(--higlight);
+      color: var(--highlight);
     }
   }
 `
